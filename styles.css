@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
+
+.genLayout{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.genLayoutt{
+  width: 950px;
+  margin: auto;
+  border: 2px solid;
+}
+
+.port2 {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.portImg {
+  width: 40%;
+}
+
+.portImg > img {
+  width: 90%;
+  height: 90vh;
+  object-fit: contain;
+}
+
+.portWord {
+  width: 40%;
+}
+
+.hi {
+  text-transform: capitalize;
+  padding-block: 15px;
+  width: 110%;
+  font-size: 35px;
+}
+
+.aWeb {
+  font-weight: 500;
+  width: 420px;
+  padding-top: 6rem;
+}
+
+.down {
+  margin-block: 30px;
+  padding-block: 7px;
+  border: 1px solid;
+  width: 23%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.portfolioicon2 {
+  /* width: 96.4%; */
+  width: 21.5%;
+  display: grid;
+  /* justify-content: end; */
+  position: fixed;
+  /* position: absolute; */
+  text-align: end;
+  /* border: 2px solid; */
+  gap: 14vh;
+  /* z-index: 1; */
+  /* background-color: black; */
+}
+.portfolioicon2 > a{
+  color: black;
+}
+
+
+/* section2 */
+
+.aboutM{
+  margin: 20px;
+  padding: 20px;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  padding-block: 60px;
+  text-decoration: underline;
+}
+
+.infoS {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+}
+
+.info {
+  width: 40%;
+}
+
+.info1 {
+  width: 65%;
+  padding-block: 10px;
+}
+
+.portbtn{
+  grid-template-columns: repeat(2,80px);
+  display: grid;
+  gap: 1rem;
+}
+
+.stacks:hover{
+  color: aquamarine;
+}
+
+.stacks{
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  border: 1px solid;
+  width: 80px;
+}
+
+.stacks > span{
+  align-items: end;
+  display: flex;
+}
+
+.stacks > img{
+  width: 30px;
+}
+
+/* .portbtn > button > a > img{
+  width: 30px;
+} */
+
+.infoBox {
+  width: 40%;
+  display: grid;
+  gap: 15px;
+  padding-block: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  box-shadow: 5px 5px 5px;
+  border: 4px solid;
+  width: 250px;
+  height: 30vh;
+}
+
+.box1 > span {
+  font-size: 75px;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.box1 > p {
+  font-weight: 900;
+  justify-content: end;
+  display: flex;
+  top: 4rem;
+  position: relative;
+}
+
+.box2 > span {
+  font-size: 40px;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-block: 10px;
+  display: flex;
+}
+
+.box2 > p {
+  font-weight: 900;
+  justify-content: end;
+  display: flex;
+  top: 5rem;
+  position: relative;
+}
+
+.box3 > span {
+  font-size: 75px;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.box3 > p {
+  font-weight: 900;
+  justify-content: end;
+  display: flex;
+  top: 4rem;
+  position: relative;
+}
+
+.box4 > span {
+  font-size: 75px;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.box4 > p {
+  font-weight: 900;
+  justify-content: end;
+  display: flex;
+  top: 4rem;
+  position: relative;
+}
+
+/* section3 */
+
+.mypo{
+  margin: 20px;
+  padding: 20px;
+}
+.mypoBanner {
+  margin-block: 9px;
+}
+
+.myP {
+  text-align: center;
+  font-size: 35px;
+}
+
+.portWrite {
+  text-align: center;
+  font-size: 20px;
+  padding-block: 5px;
+  /* justify-content: center;
+  display: flex; */
+}
+
+.portCard{
+  border-radius: 25px;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.card >a > img {
+  width: 100%;
+  height: 40vh;
+  padding: 2px;
+  /* border: 8px solid green; */
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* section4 */
+.contant{
+  border: 0;
+  padding-left: 5px;
+}
+.cont{
+  text-align: center;
+  padding-bottom: 40px;
+  text-decoration: underline;
+}
+.nammm{
+  gap: 50px;
+}
+.contlay1{
+  width: 50%;
+}
+.contInfo2{
+  width: 50%;
+}
+.contLay{
+  display: flex;
+}
+.contlay1 > h4,p{
+  padding-block: 5px;
+}
+.location{
+  padding-block: 5x;
+  display: flex;
+  gap: 135px;
+}
+.loca{
+  display: flex;
+  gap: 5px;
+}
+.email{
+  padding-block: 5px;
+  display: flex;
+  gap: 45px;
+}
+.ema{
+  display: flex;
+  gap: 5px;
+}
+.education{
+  padding-block: 5px;
+  display: flex;
+  gap: 30px;
+}
+.edu{
+  display: flex;
+  gap: 5px;
+}
+.number{
+  padding-block: 5px;
+  display: flex;
+  gap: 120px;
+}
+.numb{
+  display: flex;
+  gap: 5px;
+}
+.languages{
+  /* padding-block: 10px; */
+  display: flex;
+  gap: 140px;
+}
+.lang{
+  display: flex;
+  gap: 5px;
+}
+.socialIcons{
+  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,90px);
+
+}
+.socialIcons > a > span{
+  width: 3rem;
+}
+
+
+.yourName{
+  padding-block: 5px;
+}
+.yourName > textarea {
+  border-radius: 8px;
+}
+.enter > textarea {
+  border-radius: 8px;
+}
+.message > textarea{
+  width: 80%;
+  border-radius: 10px;
+}
+.message  input::placeholder{
+  
+}
+
+
+@media (min-width: 260px) and (max-width: 460px){
+  
+
+  .port2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .portImg > img{
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+    transform: translateY(20px);
+
+    /* padding-top: 20px; */
+  }
+  .portWord > h2{
+    width: 330px;
+    text-transform: capitalize;
+
+    
+  }
+  .hi{
+    width: 350px;
+    font-size: 20px;
+  }
+  .aWeb {
+    font-size: 1rem;
+    width: 300px;
+    padding-top: 2rem;
+  }
+  .portfolioicon2{
+    display: flex;
+    background-color: black;
+    gap: 20px;
+    /* text-align: end; */
+    width: 90%;
+    /* height: 5vh; */
+    padding: 20px;
+    color: aliceblue;
+    
+    top: -0.1rem;
+  }
+  .portfolioicon2 > a{
+    color: aliceblue;
+  }
+  .aboutMe{
+    padding-block: 0;
+  }
+  .infoS{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoBox{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1,40px);
+
+  }
+  .info > h3{
+    width: 300px;
+    padding-top: 2rem;
+    text-decoration: underline;
+  }
+  .info1{
+    width: 15rem;
+    text-align: start;
+  }
+  .myP > h3{
+    width: 350px;
+    text-align: start;
+    /* justify-content: start; */
+    text-decoration: underline;
+  }
+  .portCard{
+    display: grid;
+    text-align: start;
+    padding-left: 0%;
+    grid-template-columns: repeat(2,9rem);
+    object-fit: cover;
+  }
+  .cont{
+    text-align: start;
+  }
+  .contLay{
+    display: grid;
+  }
+  .contactInfo2{
+    padding: 10px;
+  }
+  .enter{
+    width: 3rem;
+  }
+  .message{
+    width: 29rem;
+  }
+  
+}
