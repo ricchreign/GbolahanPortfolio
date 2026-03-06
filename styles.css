@@ -36,8 +36,6 @@ body{
   width: 90%;
   height: 90vh;
   object-fit: contain;
-  /* box-shadow: 5px 5px 5px; */
-
 }
 
 .portWord {
@@ -330,8 +328,8 @@ body{
 }
 .socialIcons > a {
   /* width: 3rem; */
-  border-bottom: 2px solid black;
-  border: 2px solid black;
+  border-bottom: 2px solid green;
+  border: 2px solid #178255;
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -417,7 +415,6 @@ body{
     width: 300px;
     object-fit: contain;
     height: auto;
-    box-shadow: 10px 10px 10px;
     transform: translateY(20px);
 
     /* padding-top: 20px; */
@@ -431,7 +428,6 @@ body{
   .hi{
     width: 350px;
     font-size: 20px;
-    padding-block: 0;
   }
   .aWeb {
     font-size: 1rem;
